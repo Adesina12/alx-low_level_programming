@@ -1,6 +1,8 @@
 #include <stdio.h>
-/* This is a main
- * it is a main block
+/**
+ * main - Entry point
+ * 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

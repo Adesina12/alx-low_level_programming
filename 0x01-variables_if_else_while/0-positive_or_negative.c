@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/**
+ * main - this is my main
+ * return - this will be 0
+ */
 
 int main(void)
 {

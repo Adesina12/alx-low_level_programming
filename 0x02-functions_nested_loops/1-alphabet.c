@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 /**
  * main - Entry mode
  * Return: Always 0 (Success)
  */
-int main(void)
+int print_alphabet()
 {
 	int a;
 
@@ -12,4 +13,9 @@ int main(void)
 		putchar(a);
 	putchar('\n');
 	return (0);
+}
+int main(void)
+{
+	print_alphabet();
+	return(0);
 }

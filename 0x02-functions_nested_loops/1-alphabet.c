@@ -3,12 +3,11 @@
 #include "main.h"
 /**
  * main - Entry mode
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
 int main(void)
 {
 	print_alphabet();
-	putchar('\n');
 	return (0);
 }
 void print_alphabet(void)
@@ -17,4 +16,5 @@ void print_alphabet(void)
 
 	for (a = 'a'; a <= 'z'; a++)
 		putchar(a);
+	putchar('\n');
 }

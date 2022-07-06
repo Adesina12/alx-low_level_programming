@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * main - Entry mode
+ *print_alphabet - Entry mode
  * Return: Always 0
- * print_alphabet - my created function
  */
 void print_alphabet(void)
 {

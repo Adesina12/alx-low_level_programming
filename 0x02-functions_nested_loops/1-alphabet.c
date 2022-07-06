@@ -5,16 +5,16 @@
  * main - Entry mode
  * Return: Always 0 (Success)
  */
+int main(void)
+{
+	print_alphabet();
+	putchar('\n');
+	return (0);
+}
 void print_alphabet(void)
 {
 	int a;
 
 	for (a = 'a'; a <= 'z'; a++)
 		putchar(a);
-	putchar('\n');
-}
-int main(void)
-{
-	print_alphabet();
-	return(0);
 }

@@ -4,7 +4,7 @@
  * main - Entry mode
  * Return: Always 0 (Success)
  */
-void print_alphabet()
+int main(void)
 {
 	int a;
 
@@ -12,8 +12,7 @@ void print_alphabet()
 		putchar(a);
 	putchar('\n');
 }
-int main(void)
+int print_alphabet()
 {
-	void print_alphabet();
 	return (0);
 }

@@ -10,4 +10,5 @@ int main(void)
 }
 int _putchar ()
 {
+	return (0);
 }

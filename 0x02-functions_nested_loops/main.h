@@ -1,3 +1,3 @@
 
-int _putchar ();
-int print_alphabet();
+void _putchar ();
+void print_alphabet(void);

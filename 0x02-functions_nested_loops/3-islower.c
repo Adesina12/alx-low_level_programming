@@ -1,7 +1,7 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _islower(int c) - Entry mode
+ * _islower - Entry mode
  * Return: Always 0
  */
 int _islower(int c)

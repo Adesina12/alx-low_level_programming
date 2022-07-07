@@ -2,6 +2,7 @@
 #include <ctype.h>
 /**
  * _islower - Entry mode
+ * c - this is an integer
  * Return: Always 0
  */
 int _islower(int c)

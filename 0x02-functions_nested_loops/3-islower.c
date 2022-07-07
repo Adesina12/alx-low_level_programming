@@ -5,7 +5,7 @@
  */
 int _islower(int c)
 {
-	if (c = 'abcdefghijklmnopqrstuvwxyz')
+	if (c == 'abcdefghijklmnopqrstuvwxyz')
 		return (1);
 	else
 		return (0);

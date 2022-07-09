@@ -4,7 +4,7 @@
  * @n: an integer
  * Return: Always 0
  */
-int print_last_digit(int n)
+void print_last_digit(int n)
 {
 	int s;
 	int j;
@@ -13,5 +13,4 @@ int print_last_digit(int n)
 	j = n % 10;
 	_putchar(s);
 	_putchar(j);
-	return (0);
 }

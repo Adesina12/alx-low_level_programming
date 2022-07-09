@@ -4,8 +4,8 @@
  * @n: any integer
  * Return: Always 0
  */
-int _abs(int n)
+int _abs(int r)
 {
-	_putchar(_abs(n));
+	_putchar(_abs(r));
 	return (0);
 }

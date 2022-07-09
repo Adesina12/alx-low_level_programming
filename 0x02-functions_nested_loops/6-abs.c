@@ -6,5 +6,8 @@
  */
 int _abs(int n)
 {
-	return (_abs(n));
+	if (n > 0)
+		retun (-n);
+	else
+		return (n);
 }

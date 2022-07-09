@@ -4,13 +4,12 @@
  * @n: an integer
  * Return: Always 0
  */
-void print_last_digit(int n)
+int print_last_digit(int n)
 {
 	int s;
 	int j;
 
 	s = n % 10;
-	j = n % 10;
-	_putchar(s);
-	_putchar(j);
+	j = ss;
+	return (j);
 }

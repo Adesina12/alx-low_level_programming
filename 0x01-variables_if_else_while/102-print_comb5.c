@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int a, b, c, d;
+	int a, b;
 
 	for (a = 0; a <= 98; a++)
 	{
@@ -18,7 +18,7 @@ int main(void)
 			putchar((b / 10) + '0');
 			putchar((b % 10) + '0');
 
-			if (p == 98 && q == 99)
+			if (a == 98 && b == 99)
 				continue;
 			putchar(',');
 			putchar(' ');

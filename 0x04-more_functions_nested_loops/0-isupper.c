@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 /**
  * _isupper - Entry mode
  * @c: an integer
@@ -6,7 +7,7 @@
  */
 int _isupper(int c)
 {
-	if (_isupper(c))
+	if (isupper(c))
 		return (1);
 	else
 		return (0);

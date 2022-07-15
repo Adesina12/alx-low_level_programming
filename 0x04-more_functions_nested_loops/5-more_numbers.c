@@ -11,7 +11,7 @@ void more_numbers(void)
 
 	while (a < 10)
 	{
-		for (b = '0'; b <= '9'; b++)
+		for (b = 0; b <= 9; b++)
 			printf("%d", b);
 		_putchar('\n');
 		a++;

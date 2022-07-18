@@ -1,19 +1,27 @@
 #include "main.h"
 /**
  * more_numbers - Entry mode
- * Return: Always 0
+ * Return: always 0
  */
 void more_numbers(void)
 {
-	int a = 0;
-	int b;
-	int c;
+	int a, b, c;
+	a = 0;
 
-	while (a < 10)
+	while (a <= 10)
 	{
-		for (b = 0; b <= 9; b++)
-			printf("%d", b);
+		b = 0;
+
+		while (b <= 14)
+		{
+			c = b;
+			if (b > 9)
+			{
+				_putchar('1');
+				c = b % 10;
+			}
+			_putchar(c + 48);
+		}
 		_putchar('\n');
-		a++;
 	}
 }

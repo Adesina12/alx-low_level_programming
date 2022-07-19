@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_diagonal - Entry mode
+ * @n: an integer
  * Return: Always 0
  */
 void print_diagonal(int n)

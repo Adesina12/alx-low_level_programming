@@ -6,12 +6,11 @@
  */
 void print_square(int size)
 {
-	int a;
+	int a = 0;
 	int b;
 	
 	if (size > 0)
 	{
-		a = 0;
 		while (a < size)
 		{
 			b = 0;

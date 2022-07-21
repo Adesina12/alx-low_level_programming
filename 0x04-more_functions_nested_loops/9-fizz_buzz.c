@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	int a = 3;
-	printf("1 2 ");
+	int a = 1;
+
 	while (a <= 100)
 	{
 		if (a % 3 == 0 && a % 5 == 0)

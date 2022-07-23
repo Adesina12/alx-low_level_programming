@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *  * print_triangle - Prints a triangle
- *   * @size: size of triangle
- *    *
- *     */
+ * print_triangle - Entry mode
+ * @size: an integer
+ * Return: Always 0
+ */
 void print_triangle(int size)
 {
 	int i, j;

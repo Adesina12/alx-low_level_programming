@@ -1,22 +1,22 @@
 #include "main.h"
+
 /**
- * print_triangle - Entry mode
- * @size: an integer
- * Return: Always 0
- */
+ *  * print_triangle - Prints a triangle
+ *   * @size: size of triangle
+ *    *
+ *     */
 void print_triangle(int size)
 {
-	int a, b;
-
-	for (a = 0; a < size; a++)
+	int i, j;
+		
+	for (i = 0; i < size; i++)
 	{
-		for (b = 1; b < (size - a); b++)
+		for (j = 1; j < (size - i); j++)
 			_putchar(' ');
-		for (b--; b < size; b++)
+		for (j--; j < size; j++)
 			_putchar(35);
-		if (a < (size - 1))
+		if (i < (size - 1))
 			_putchar('\n');
 	}
 	_putchar('\n');
-	return (0);
 }

@@ -6,7 +6,7 @@
  * @c: third int
  * Return: largest number
  */
-void largest_number(int a, int b, int c)
+int largest_number(int a, int b, int c)
 {
 	int largest;
 
@@ -23,5 +23,5 @@ void largest_number(int a, int b, int c)
 		largest = c;
 	}
 
-	printf("%d", largest);
+	return (largest);
 }

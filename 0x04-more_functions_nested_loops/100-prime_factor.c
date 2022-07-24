@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int val, num, c;
+	long int val, num, c;
 
 	val = 612852475143;
 	for (num = 2; num <= val; num++)
@@ -18,6 +18,6 @@ int main(void)
 			num = num - 1;
 		}
 	}
-	printf("%d\n", num);
+	printf("%ld\n", num);
 	return (0);
 }

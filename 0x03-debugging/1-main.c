@@ -15,6 +15,10 @@ int main(void)
 
 	while (i < 10)
 	{
+		/* This is a while
+		 * loop
+		 * comment
+		 */
 		putchar(i);
 	}
 

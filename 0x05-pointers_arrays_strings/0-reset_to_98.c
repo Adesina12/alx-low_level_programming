@@ -1,5 +1,6 @@
 #include "main.h"
-/* reset_to_98 - Entry mode
+/**
+ * reset_to_98 - Entry mode
  * *n: an integer
  * Return: Always 0
  */

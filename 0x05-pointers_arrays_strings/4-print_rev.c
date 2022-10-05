@@ -1,8 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <string.h>
-
-/** 
+/**
  * print_rev - Entry mode
  * @s: a pointer
  * Return: Always 0

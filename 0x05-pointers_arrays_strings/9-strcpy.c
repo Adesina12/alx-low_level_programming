@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * strcpy - Entry mode
+ * _strcpy - Entry mode
  * @dest: a pointer
  * @src: another pointer
  */
@@ -12,5 +12,5 @@ char *_strcpy(char *dest, char *src)
 {
 	strcpy(dest, src);
 
-	return(dest);
+	return (dest);
 }

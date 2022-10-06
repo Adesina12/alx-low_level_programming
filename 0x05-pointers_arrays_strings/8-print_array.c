@@ -5,7 +5,7 @@
 /**
  * print_array - Entry mode
  * @a: a pointer
- * n: integer
+ * @n: integer
  * Return: Always 0
  */
 

@@ -13,7 +13,7 @@ char *leet(char *x)
 	char mymy[5] = {'A', 'E', 'O', 'T', 'L'};
 	char ade[5] = {'4', '3', '0', '7', '1'};
 
-	for (i = 0; x[i]; i++)
+	for (i = 0; x[i] != '\0'; i++)
 	{
 		for (j = 0; j < 5; j++)
 		{

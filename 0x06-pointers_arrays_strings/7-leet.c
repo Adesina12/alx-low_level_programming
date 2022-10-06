@@ -1,25 +1,27 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * leet - entry mode
- * @x: a pointer
+ * leet -> a leet function
+ * @x: param x
  * Return: a string
  */
-
 char *leet(char *x)
 {
-	int i, j;
-	char mymy[5] = {'A', 'E', 'O', 'T', 'L'};
-	char ade[5] = {'4', '3', '0', '7', '1'};
+	int a = 0, b, l = 5;
+	char tr[5] = {'A', 'E', 'O', 'T', 'L'};
+	char trw[5] = {'4', '3', '0', '7', '1'};
 
-	for (i = 0; x[i] != '\0'; i++)
+	while (x[a])
 	{
-		for (j = 0; j < 5; j++)
+		b = 0;
+
+		while (b < l)
 		{
-			if (x[i] == mymy[j] || x[i] - 32 == mymy[j])
-				x[i] == ade[j];
+			if (x[a] == tr[b] || x[a] - 32 == tr[b])
+				x[a] = trw[b];
+			b++;
 		}
+		a++;
 	}
 	return (x);
 }

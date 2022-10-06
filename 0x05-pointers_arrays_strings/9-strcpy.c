@@ -6,6 +6,7 @@
  * _strcpy - Entry mode
  * @dest: a pointer
  * @src: another pointer
+ * Return: dest
  */
 
 char *_strcpy(char *dest, char *src)

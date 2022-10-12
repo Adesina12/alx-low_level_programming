@@ -10,7 +10,8 @@
 
 char *_strchr(char *s, char c)
 {
-	strchr(s, c);
+	char mymy;
 
-	return (s);
+	mymy = strchr(s, c);
+
 }

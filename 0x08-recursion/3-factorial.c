@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int factorial - Entry mode
+ * factorial - Entry mode
  * @n: an integer
  * Return: n
  */

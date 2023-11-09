@@ -4,6 +4,7 @@
 /**
  * init_dog - Initials of a dog
  * struct dog - A structure of a dog
+ * @d: the name of the construction
  * @name: name of the dog
  * @age: The age of the dog
  * @owner: The owner of the dog
